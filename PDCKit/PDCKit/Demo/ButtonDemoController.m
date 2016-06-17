@@ -7,7 +7,7 @@
 //
 
 #import "ButtonDemoController.h"
-#import "UIButton+PDCAdd.h"
+#import "UIControl+PDCAdd.h"
 
 @implementation ButtonDemoController
 {
@@ -35,7 +35,7 @@
         [self.view addSubview:_button1];
     }
     
-    [_button1 actionWithBlock:^(UIButton *button) {
+    [_button1 actionWithBlock:^(UIControl *sender) {
         UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"tip" message:@"click me button" preferredStyle:UIAlertControllerStyleAlert];
         [alertController addAction:[UIAlertAction actionWithTitle:@"sure" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
             

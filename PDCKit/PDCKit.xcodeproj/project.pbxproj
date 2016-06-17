@@ -14,10 +14,10 @@
 		EA20512E1D003E9200A81DD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA20512C1D003E9200A81DD6 /* LaunchScreen.storyboard */; };
 		EA2051391D003E9200A81DD6 /* PDCKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2051381D003E9200A81DD6 /* PDCKitTests.m */; };
 		EA2051441D003E9200A81DD6 /* PDCKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2051431D003E9200A81DD6 /* PDCKitUITests.m */; };
-		EA2051591D003F2F00A81DD6 /* UIButton+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2051581D003F2F00A81DD6 /* UIButton+PDCAdd.m */; };
 		EA20515C1D003F7900A81DD6 /* DemoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA20515B1D003F7900A81DD6 /* DemoListTableViewController.m */; };
 		EA20515F1D003FF400A81DD6 /* KeyControllerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA20515E1D003FF400A81DD6 /* KeyControllerModel.m */; };
 		EA2051631D0042F500A81DD6 /* ButtonDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2051621D0042F500A81DD6 /* ButtonDemoController.m */; };
+		EAD31D4F1D13A943001B6FEF /* UIControl+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD31D4E1D13A943001B6FEF /* UIControl+PDCAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,14 +52,14 @@
 		EA20513F1D003E9200A81DD6 /* PDCKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDCKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2051431D003E9200A81DD6 /* PDCKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDCKitUITests.m; sourceTree = "<group>"; };
 		EA2051451D003E9200A81DD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA2051571D003F2F00A81DD6 /* UIButton+PDCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PDCAdd.h"; sourceTree = "<group>"; };
-		EA2051581D003F2F00A81DD6 /* UIButton+PDCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PDCAdd.m"; sourceTree = "<group>"; };
 		EA20515A1D003F7900A81DD6 /* DemoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoListTableViewController.h; sourceTree = "<group>"; };
 		EA20515B1D003F7900A81DD6 /* DemoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoListTableViewController.m; sourceTree = "<group>"; };
 		EA20515D1D003FF400A81DD6 /* KeyControllerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyControllerModel.h; sourceTree = "<group>"; };
 		EA20515E1D003FF400A81DD6 /* KeyControllerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyControllerModel.m; sourceTree = "<group>"; };
 		EA2051611D0042F500A81DD6 /* ButtonDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonDemoController.h; sourceTree = "<group>"; };
 		EA2051621D0042F500A81DD6 /* ButtonDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonDemoController.m; sourceTree = "<group>"; };
+		EAD31D4D1D13A943001B6FEF /* UIControl+PDCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+PDCAdd.h"; sourceTree = "<group>"; };
+		EAD31D4E1D13A943001B6FEF /* UIControl+PDCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+PDCAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,8 +196,8 @@
 		EA2051561D003F2100A81DD6 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				EA2051571D003F2F00A81DD6 /* UIButton+PDCAdd.h */,
-				EA2051581D003F2F00A81DD6 /* UIButton+PDCAdd.m */,
+				EAD31D4D1D13A943001B6FEF /* UIControl+PDCAdd.h */,
+				EAD31D4E1D13A943001B6FEF /* UIControl+PDCAdd.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -343,7 +343,7 @@
 			files = (
 				EA20515F1D003FF400A81DD6 /* KeyControllerModel.m in Sources */,
 				EA20515C1D003F7900A81DD6 /* DemoListTableViewController.m in Sources */,
-				EA2051591D003F2F00A81DD6 /* UIButton+PDCAdd.m in Sources */,
+				EAD31D4F1D13A943001B6FEF /* UIControl+PDCAdd.m in Sources */,
 				EA2051231D003E9200A81DD6 /* AppDelegate.m in Sources */,
 				EA2051631D0042F500A81DD6 /* ButtonDemoController.m in Sources */,
 				EA2051201D003E9200A81DD6 /* main.m in Sources */,
@@ -572,6 +572,7 @@
 				EA20514A1D003E9200A81DD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA20514B1D003E9200A81DD6 /* Build configuration list for PBXNativeTarget "PDCKitTests" */ = {
 			isa = XCConfigurationList;
@@ -580,6 +581,7 @@
 				EA20514D1D003E9200A81DD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA20514E1D003E9200A81DD6 /* Build configuration list for PBXNativeTarget "PDCKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -588,6 +590,7 @@
 				EA2051501D003E9200A81DD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
