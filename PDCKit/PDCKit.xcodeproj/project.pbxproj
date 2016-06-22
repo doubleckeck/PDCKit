@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA08479B1D1A71D100303A92 /* NSAttributedString+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0847991D1A71D100303A92 /* NSAttributedString+PDCAdd.m */; };
 		EA2051201D003E9200A81DD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA20511F1D003E9200A81DD6 /* main.m */; };
 		EA2051231D003E9200A81DD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2051221D003E9200A81DD6 /* AppDelegate.m */; };
 		EA2051291D003E9200A81DD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2051271D003E9200A81DD6 /* Main.storyboard */; };
@@ -42,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA0847991D1A71D100303A92 /* NSAttributedString+PDCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+PDCAdd.m"; sourceTree = "<group>"; };
+		EA08479A1D1A71D100303A92 /* NSAttributedString+PDCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+PDCAdd.h"; sourceTree = "<group>"; };
 		EA20511B1D003E9200A81DD6 /* PDCKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDCKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA20511F1D003E9200A81DD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA2051211D003E9200A81DD6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -202,6 +205,8 @@
 			children = (
 				EAD31D501D13AC3F001B6FEF /* NSArray+PDCAdd.h */,
 				EAD31D511D13AC3F001B6FEF /* NSArray+PDCAdd.m */,
+				EA08479A1D1A71D100303A92 /* NSAttributedString+PDCAdd.h */,
+				EA0847991D1A71D100303A92 /* NSAttributedString+PDCAdd.m */,
 			);
 			path = NSKit;
 			sourceTree = "<group>";
@@ -365,6 +370,7 @@
 				EA20515C1D003F7900A81DD6 /* DemoListTableViewController.m in Sources */,
 				EAD31D4F1D13A943001B6FEF /* UIControl+PDCAdd.m in Sources */,
 				EAD31D521D13AC3F001B6FEF /* NSArray+PDCAdd.m in Sources */,
+				EA08479B1D1A71D100303A92 /* NSAttributedString+PDCAdd.m in Sources */,
 				EAD31D5B1D13AEA6001B6FEF /* NSTimer+PDCAdd.m in Sources */,
 				EA2051231D003E9200A81DD6 /* AppDelegate.m in Sources */,
 				EA2051631D0042F500A81DD6 /* ButtonDemoController.m in Sources */,
