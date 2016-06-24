@@ -23,6 +23,7 @@
 		EAD31D551D13ADA8001B6FEF /* PDCQueueFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD31D541D13ADA8001B6FEF /* PDCQueueFunction.m */; };
 		EAD31D581D13ADC1001B6FEF /* PDCSerialQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD31D571D13ADC1001B6FEF /* PDCSerialQueue.m */; };
 		EAD31D5B1D13AEA6001B6FEF /* NSTimer+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD31D5A1D13AEA6001B6FEF /* NSTimer+PDCAdd.m */; };
+		EAE1C65F1D1D41E9004765E6 /* UIButton+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE1C65E1D1D41E9004765E6 /* UIButton+PDCAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,8 @@
 		EAD31D571D13ADC1001B6FEF /* PDCSerialQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDCSerialQueue.m; sourceTree = "<group>"; };
 		EAD31D591D13AEA6001B6FEF /* NSTimer+PDCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+PDCAdd.h"; sourceTree = "<group>"; };
 		EAD31D5A1D13AEA6001B6FEF /* NSTimer+PDCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+PDCAdd.m"; sourceTree = "<group>"; };
+		EAE1C65D1D1D41E9004765E6 /* UIButton+PDCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PDCAdd.h"; sourceTree = "<group>"; };
+		EAE1C65E1D1D41E9004765E6 /* UIButton+PDCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PDCAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +226,8 @@
 			children = (
 				EAD31D4D1D13A943001B6FEF /* UIControl+PDCAdd.h */,
 				EAD31D4E1D13A943001B6FEF /* UIControl+PDCAdd.m */,
+				EAE1C65D1D1D41E9004765E6 /* UIButton+PDCAdd.h */,
+				EAE1C65E1D1D41E9004765E6 /* UIButton+PDCAdd.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -375,6 +380,7 @@
 				EA2051231D003E9200A81DD6 /* AppDelegate.m in Sources */,
 				EA2051631D0042F500A81DD6 /* ButtonDemoController.m in Sources */,
 				EA2051201D003E9200A81DD6 /* main.m in Sources */,
+				EAE1C65F1D1D41E9004765E6 /* UIButton+PDCAdd.m in Sources */,
 				EAD31D551D13ADA8001B6FEF /* PDCQueueFunction.m in Sources */,
 				EAD31D581D13ADC1001B6FEF /* PDCSerialQueue.m in Sources */,
 			);
