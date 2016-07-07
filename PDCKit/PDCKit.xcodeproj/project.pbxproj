@@ -18,6 +18,7 @@
 		EA20515C1D003F7900A81DD6 /* DemoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA20515B1D003F7900A81DD6 /* DemoListTableViewController.m */; };
 		EA20515F1D003FF400A81DD6 /* KeyControllerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA20515E1D003FF400A81DD6 /* KeyControllerModel.m */; };
 		EA2051631D0042F500A81DD6 /* ButtonDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2051621D0042F500A81DD6 /* ButtonDemoController.m */; };
+		EAA1E7A41D2E28FC00D7EB62 /* UIViewController+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA1E7A31D2E28FC00D7EB62 /* UIViewController+Alert.m */; };
 		EAD31D4F1D13A943001B6FEF /* UIControl+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD31D4E1D13A943001B6FEF /* UIControl+PDCAdd.m */; };
 		EAD31D521D13AC3F001B6FEF /* NSArray+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD31D511D13AC3F001B6FEF /* NSArray+PDCAdd.m */; };
 		EAD31D551D13ADA8001B6FEF /* PDCQueueFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD31D541D13ADA8001B6FEF /* PDCQueueFunction.m */; };
@@ -66,6 +67,8 @@
 		EA20515E1D003FF400A81DD6 /* KeyControllerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyControllerModel.m; sourceTree = "<group>"; };
 		EA2051611D0042F500A81DD6 /* ButtonDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonDemoController.h; sourceTree = "<group>"; };
 		EA2051621D0042F500A81DD6 /* ButtonDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonDemoController.m; sourceTree = "<group>"; };
+		EAA1E7A21D2E28FC00D7EB62 /* UIViewController+Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Alert.h"; sourceTree = "<group>"; };
+		EAA1E7A31D2E28FC00D7EB62 /* UIViewController+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Alert.m"; sourceTree = "<group>"; };
 		EAD31D4D1D13A943001B6FEF /* UIControl+PDCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+PDCAdd.h"; sourceTree = "<group>"; };
 		EAD31D4E1D13A943001B6FEF /* UIControl+PDCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+PDCAdd.m"; sourceTree = "<group>"; };
 		EAD31D501D13AC3F001B6FEF /* NSArray+PDCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PDCAdd.h"; sourceTree = "<group>"; };
@@ -224,6 +227,8 @@
 		EA2051561D003F2100A81DD6 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				EAA1E7A21D2E28FC00D7EB62 /* UIViewController+Alert.h */,
+				EAA1E7A31D2E28FC00D7EB62 /* UIViewController+Alert.m */,
 				EAD31D4D1D13A943001B6FEF /* UIControl+PDCAdd.h */,
 				EAD31D4E1D13A943001B6FEF /* UIControl+PDCAdd.m */,
 				EAE1C65D1D1D41E9004765E6 /* UIButton+PDCAdd.h */,
@@ -371,6 +376,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAA1E7A41D2E28FC00D7EB62 /* UIViewController+Alert.m in Sources */,
 				EA20515F1D003FF400A81DD6 /* KeyControllerModel.m in Sources */,
 				EA20515C1D003F7900A81DD6 /* DemoListTableViewController.m in Sources */,
 				EAD31D4F1D13A943001B6FEF /* UIControl+PDCAdd.m in Sources */,

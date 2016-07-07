@@ -32,7 +32,7 @@
         default:
             break;
     }
-    objc_setAssociatedObject(self, _cmd, @(pdc_style), OBJC_ASSOCIATION_ASSIGN);
+    objc_setAssociatedObject(self, _cmd, @(pdc_style), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 -(PDCButtonStyle )pdc_style
