@@ -94,7 +94,6 @@
                 animated:(BOOL )animated
                   action:(clickHaveField )click
 {
-    
     NSMutableArray *fields = [NSMutableArray array];
     
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];

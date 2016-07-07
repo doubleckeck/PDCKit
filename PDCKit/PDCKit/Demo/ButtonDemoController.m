@@ -8,6 +8,7 @@
 
 #import "ButtonDemoController.h"
 #import "UIControl+PDCAdd.h"
+#import "UIViewController+NavBarLeftRightItem.h"
 
 @implementation ButtonDemoController
 {
@@ -42,6 +43,17 @@
         }]];
         
         [self presentViewController:alertController animated:YES completion:nil];
+    }];
+    
+    self.pdc_font = [UIFont systemFontOfSize:11.0];
+    self.pdc_titleColor = [UIColor redColor];
+    
+    [self leftBarItemTitle:@"返回主界面" callback:^() {
+        [self.navigationController popViewControllerAnimated:YES];
+    }];
+    
+    [self rightBarItemImage:[UIImage imageNamed:@"left"] callback:^{
+        [self.navigationController popViewControllerAnimated:YES];
     }];
 }
 
