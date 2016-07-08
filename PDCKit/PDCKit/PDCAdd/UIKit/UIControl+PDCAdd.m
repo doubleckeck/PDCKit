@@ -8,7 +8,6 @@
 
 #import "UIControl+PDCAdd.h"
 #import <objc/runtime.h>
-static const char *key = "action_key";
 
 @interface UIControl ()
 @property (nonatomic, copy) action block;
@@ -18,12 +17,12 @@ static const char *key = "action_key";
 @implementation UIControl (PDCAdd)
 -(void )setBlock:(action )block
 {
-    objc_setAssociatedObject(self, key, block, OBJC_ASSOCIATION_COPY_NONATOMIC);
+    objc_setAssociatedObject(self, @selector(block), block, OBJC_ASSOCIATION_COPY_NONATOMIC);
 }
 
 -(action )block
 {
-    return objc_getAssociatedObject(self, key);
+    return objc_getAssociatedObject(self, _cmd);
 }
 
 -(void )actionWithBlock:(action )block

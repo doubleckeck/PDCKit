@@ -14,6 +14,13 @@
 @end
 
 @implementation DemoListTableViewController
+-(void )viewDidLoad
+{
+    [super viewDidLoad];
+    
+    self.title = @"Demo List";
+}
+
 -(NSArray<NSDictionary *> *)keyControllerModels
 {
     if (_keyControllerModels == nil)

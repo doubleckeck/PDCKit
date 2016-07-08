@@ -24,6 +24,9 @@
 -(void )viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    
+    self.title = @"修改了导航栏左右两边按钮";
+    
     if (_button1 == nil)
     {
         _button1 = [UIButton buttonWithType:UIButtonTypeSystem];

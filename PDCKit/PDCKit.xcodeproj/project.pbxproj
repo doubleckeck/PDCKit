@@ -20,6 +20,10 @@
 		EA2051631D0042F500A81DD6 /* ButtonDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2051621D0042F500A81DD6 /* ButtonDemoController.m */; };
 		EAA1E7A41D2E28FC00D7EB62 /* UIViewController+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA1E7A31D2E28FC00D7EB62 /* UIViewController+Alert.m */; };
 		EAA1E7A91D2E2A5700D7EB62 /* UIViewController+NavBarLeftRightItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA1E7A81D2E2A5700D7EB62 /* UIViewController+NavBarLeftRightItem.m */; };
+		EAB7F7091D2F7579008FF891 /* NSString+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB7F7081D2F7579008FF891 /* NSString+PDCAdd.m */; };
+		EAB7F70D1D2F75FC008FF891 /* StringDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB7F70C1D2F75FC008FF891 /* StringDemoController.m */; };
+		EAB7F7111D2F76A9008FF891 /* NSAttributedStringController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB7F7101D2F76A9008FF891 /* NSAttributedStringController.m */; };
+		EAB7F78D1D2FAA5D008FF891 /* NSTimerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB7F78C1D2FAA5D008FF891 /* NSTimerDemoController.m */; };
 		EAD31D4F1D13A943001B6FEF /* UIControl+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD31D4E1D13A943001B6FEF /* UIControl+PDCAdd.m */; };
 		EAD31D521D13AC3F001B6FEF /* NSArray+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD31D511D13AC3F001B6FEF /* NSArray+PDCAdd.m */; };
 		EAD31D551D13ADA8001B6FEF /* PDCQueueFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD31D541D13ADA8001B6FEF /* PDCQueueFunction.m */; };
@@ -72,6 +76,14 @@
 		EAA1E7A31D2E28FC00D7EB62 /* UIViewController+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Alert.m"; path = "PDCKit/PDCAdd/UIKit/UIViewController+Alert.m"; sourceTree = SOURCE_ROOT; };
 		EAA1E7A71D2E2A5700D7EB62 /* UIViewController+NavBarLeftRightItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavBarLeftRightItem.h"; sourceTree = "<group>"; };
 		EAA1E7A81D2E2A5700D7EB62 /* UIViewController+NavBarLeftRightItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavBarLeftRightItem.m"; sourceTree = "<group>"; };
+		EAB7F7071D2F7579008FF891 /* NSString+PDCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PDCAdd.h"; sourceTree = "<group>"; };
+		EAB7F7081D2F7579008FF891 /* NSString+PDCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PDCAdd.m"; sourceTree = "<group>"; };
+		EAB7F70B1D2F75FC008FF891 /* StringDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringDemoController.h; sourceTree = "<group>"; };
+		EAB7F70C1D2F75FC008FF891 /* StringDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringDemoController.m; sourceTree = "<group>"; };
+		EAB7F70F1D2F76A9008FF891 /* NSAttributedStringController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSAttributedStringController.h; sourceTree = "<group>"; };
+		EAB7F7101D2F76A9008FF891 /* NSAttributedStringController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSAttributedStringController.m; sourceTree = "<group>"; };
+		EAB7F78B1D2FAA5D008FF891 /* NSTimerDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimerDemoController.h; sourceTree = "<group>"; };
+		EAB7F78C1D2FAA5D008FF891 /* NSTimerDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTimerDemoController.m; sourceTree = "<group>"; };
 		EAD31D4D1D13A943001B6FEF /* UIControl+PDCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+PDCAdd.h"; sourceTree = "<group>"; };
 		EAD31D4E1D13A943001B6FEF /* UIControl+PDCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+PDCAdd.m"; sourceTree = "<group>"; };
 		EAD31D501D13AC3F001B6FEF /* NSArray+PDCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PDCAdd.h"; sourceTree = "<group>"; };
@@ -180,7 +192,10 @@
 		EA2051511D003ECE00A81DD6 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				EAB7F78E1D2FAA67008FF891 /* NSTimerDemo */,
 				EA2051601D0042C500A81DD6 /* UIButton */,
+				EAB7F70E1D2F769A008FF891 /* NSAttributedStringDemo */,
+				EAB7F70A1D2F75C8008FF891 /* StringDemo */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -216,6 +231,8 @@
 				EAD31D511D13AC3F001B6FEF /* NSArray+PDCAdd.m */,
 				EA08479A1D1A71D100303A92 /* NSAttributedString+PDCAdd.h */,
 				EA0847991D1A71D100303A92 /* NSAttributedString+PDCAdd.m */,
+				EAB7F7071D2F7579008FF891 /* NSString+PDCAdd.h */,
+				EAB7F7081D2F7579008FF891 /* NSString+PDCAdd.m */,
 			);
 			path = NSKit;
 			sourceTree = "<group>";
@@ -257,6 +274,33 @@
 				EAA1E7A81D2E2A5700D7EB62 /* UIViewController+NavBarLeftRightItem.m */,
 			);
 			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		EAB7F70A1D2F75C8008FF891 /* StringDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EAB7F70B1D2F75FC008FF891 /* StringDemoController.h */,
+				EAB7F70C1D2F75FC008FF891 /* StringDemoController.m */,
+			);
+			name = StringDemo;
+			sourceTree = "<group>";
+		};
+		EAB7F70E1D2F769A008FF891 /* NSAttributedStringDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EAB7F70F1D2F76A9008FF891 /* NSAttributedStringController.h */,
+				EAB7F7101D2F76A9008FF891 /* NSAttributedStringController.m */,
+			);
+			name = NSAttributedStringDemo;
+			sourceTree = "<group>";
+		};
+		EAB7F78E1D2FAA67008FF891 /* NSTimerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EAB7F78B1D2FAA5D008FF891 /* NSTimerDemoController.h */,
+				EAB7F78C1D2FAA5D008FF891 /* NSTimerDemoController.m */,
+			);
+			name = NSTimerDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -390,7 +434,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAA1E7A41D2E28FC00D7EB62 /* UIViewController+Alert.m in Sources */,
+				EAB7F70D1D2F75FC008FF891 /* StringDemoController.m in Sources */,
 				EA20515F1D003FF400A81DD6 /* KeyControllerModel.m in Sources */,
+				EAB7F7111D2F76A9008FF891 /* NSAttributedStringController.m in Sources */,
 				EA20515C1D003F7900A81DD6 /* DemoListTableViewController.m in Sources */,
 				EAD31D4F1D13A943001B6FEF /* UIControl+PDCAdd.m in Sources */,
 				EAD31D521D13AC3F001B6FEF /* NSArray+PDCAdd.m in Sources */,
@@ -402,7 +448,9 @@
 				EAE1C65F1D1D41E9004765E6 /* UIButton+PDCAdd.m in Sources */,
 				EAA1E7A91D2E2A5700D7EB62 /* UIViewController+NavBarLeftRightItem.m in Sources */,
 				EAD31D551D13ADA8001B6FEF /* PDCQueueFunction.m in Sources */,
+				EAB7F7091D2F7579008FF891 /* NSString+PDCAdd.m in Sources */,
 				EAD31D581D13ADC1001B6FEF /* PDCSerialQueue.m in Sources */,
+				EAB7F78D1D2FAA5D008FF891 /* NSTimerDemoController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

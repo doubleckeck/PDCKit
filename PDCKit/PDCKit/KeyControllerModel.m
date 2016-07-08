@@ -14,6 +14,9 @@
     NSMutableArray <NSDictionary *>*arr = [NSMutableArray<NSDictionary *> array];
     
     [arr addObject:@{@"name":@"button demo",@"controller":@"ButtonDemoController"}];
+    [arr addObject:@{@"name":@"NStimer demo",@"controller":@"NSTimerDemoController"}];
+    [arr addObject:@{@"name":@"NSAttributedString demo",@"controller":@"NSAttributedStringController"}];
+    [arr addObject:@{@"name":@"string md5 sha1、sha2 demo",@"controller":@"StringDemoController"}];
 //    [arr addObject:@{@"name":@"",@"controller":@""}];
 //    [arr addObject:@{@"name":@"",@"controller":@""}];
 //    [arr addObject:@{@"name":@"",@"controller":@""}];
