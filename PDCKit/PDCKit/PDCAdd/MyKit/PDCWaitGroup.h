@@ -1,14 +1,27 @@
-//
-//  PDCWaitGroup.h
-//  WaitGroup
-//
-//  Created by KH on 16/7/10.
-//  Copyright © 2016年 KH. All rights reserved.
-//
 
 #import <Foundation/Foundation.h>
 
+@protocol PDCWaitGroup <NSObject>
+@optional
+-(void )waitting:(NSInteger )waitCount;
+-(void )finish;
+@end
+
 @interface PDCWaitGroup : NSObject
+/**
+ *  等待任务次数-1
+ */
+-(void )reduceCount;
+
+//-----------------delegate create-----------------
+@property (assign, readonly, nonatomic) id<PDCWaitGroup> delegate;
+
++(instancetype )waitGroupWithWait:(NSInteger )waitCount delegate:(id<PDCWaitGroup> )delegate;
+-(instancetype )initWithWait:(NSInteger )waitCount delegate:(id<PDCWaitGroup> )delegate;
++(instancetype )waitGroupWithWait:(NSInteger )waitCount delegate:(id<PDCWaitGroup> )delegate queue:(dispatch_queue_t )queue;
+-(instancetype )initWithWait:(NSInteger)waitCount delegate:(id<PDCWaitGroup> )delegate queue:(dispatch_queue_t )queue;
+
+//-----------------block create-----------------
 @property (assign, readonly, nonatomic) NSInteger waitCount;
 
 /**
@@ -39,10 +52,6 @@
  */
 -(void )waitting:(void(^)(NSInteger waitCount)) waitting;
 
-/**
- *  等待任务次数-1
- */
--(void )reduceCount;
 
 /**
  *  等待完成，即等待次数为0，子线程中执行(使用默认的queue)
@@ -50,5 +59,7 @@
  *  @param finish 等待完成回调
  */
 -(void )finish:(void (^)()) finish;
+
+
 
 @end
