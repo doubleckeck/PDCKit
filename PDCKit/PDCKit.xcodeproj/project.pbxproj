@@ -28,7 +28,9 @@
 		EAD31D521D13AC3F001B6FEF /* NSArray+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD31D511D13AC3F001B6FEF /* NSArray+PDCAdd.m */; };
 		EAD31D551D13ADA8001B6FEF /* PDCQueueFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD31D541D13ADA8001B6FEF /* PDCQueueFunction.m */; };
 		EAD31D581D13ADC1001B6FEF /* PDCSerialQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD31D571D13ADC1001B6FEF /* PDCSerialQueue.m */; };
-		EAD31D5B1D13AEA6001B6FEF /* NSTimer+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD31D5A1D13AEA6001B6FEF /* NSTimer+PDCAdd.m */; };
+		EAE0E1F41D31778D00E51BA6 /* PDCWaitGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE0E1F31D31778D00E51BA6 /* PDCWaitGroup.m */; };
+		EAE0E1F71D3177A100E51BA6 /* NSTimer+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE0E1F61D3177A100E51BA6 /* NSTimer+PDCAdd.m */; };
+		EAE0E1FA1D3177D700E51BA6 /* WaitGroupDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE0E1F91D3177D700E51BA6 /* WaitGroupDemoController.m */; };
 		EAE1C65F1D1D41E9004765E6 /* UIButton+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE1C65E1D1D41E9004765E6 /* UIButton+PDCAdd.m */; };
 /* End PBXBuildFile section */
 
@@ -92,8 +94,12 @@
 		EAD31D541D13ADA8001B6FEF /* PDCQueueFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDCQueueFunction.m; sourceTree = "<group>"; };
 		EAD31D561D13ADC1001B6FEF /* PDCSerialQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDCSerialQueue.h; sourceTree = "<group>"; };
 		EAD31D571D13ADC1001B6FEF /* PDCSerialQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDCSerialQueue.m; sourceTree = "<group>"; };
-		EAD31D591D13AEA6001B6FEF /* NSTimer+PDCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+PDCAdd.h"; sourceTree = "<group>"; };
-		EAD31D5A1D13AEA6001B6FEF /* NSTimer+PDCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+PDCAdd.m"; sourceTree = "<group>"; };
+		EAE0E1F21D31778D00E51BA6 /* PDCWaitGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDCWaitGroup.h; sourceTree = "<group>"; };
+		EAE0E1F31D31778D00E51BA6 /* PDCWaitGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDCWaitGroup.m; sourceTree = "<group>"; };
+		EAE0E1F51D3177A100E51BA6 /* NSTimer+PDCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+PDCAdd.h"; sourceTree = "<group>"; };
+		EAE0E1F61D3177A100E51BA6 /* NSTimer+PDCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+PDCAdd.m"; sourceTree = "<group>"; };
+		EAE0E1F81D3177D700E51BA6 /* WaitGroupDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitGroupDemoController.h; sourceTree = "<group>"; };
+		EAE0E1F91D3177D700E51BA6 /* WaitGroupDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaitGroupDemoController.m; sourceTree = "<group>"; };
 		EAE1C65D1D1D41E9004765E6 /* UIButton+PDCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PDCAdd.h"; sourceTree = "<group>"; };
 		EAE1C65E1D1D41E9004765E6 /* UIButton+PDCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PDCAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -192,6 +198,7 @@
 		EA2051511D003ECE00A81DD6 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				EAE0E1F11D31777400E51BA6 /* WaitGroupDemo */,
 				EAB7F78E1D2FAA67008FF891 /* NSTimerDemo */,
 				EA2051601D0042C500A81DD6 /* UIButton */,
 				EAB7F70E1D2F769A008FF891 /* NSAttributedStringDemo */,
@@ -218,8 +225,8 @@
 				EAD31D571D13ADC1001B6FEF /* PDCSerialQueue.m */,
 				EAD31D531D13ADA8001B6FEF /* PDCQueueFunction.h */,
 				EAD31D541D13ADA8001B6FEF /* PDCQueueFunction.m */,
-				EAD31D591D13AEA6001B6FEF /* NSTimer+PDCAdd.h */,
-				EAD31D5A1D13AEA6001B6FEF /* NSTimer+PDCAdd.m */,
+				EAE0E1F21D31778D00E51BA6 /* PDCWaitGroup.h */,
+				EAE0E1F31D31778D00E51BA6 /* PDCWaitGroup.m */,
 			);
 			path = MyKit;
 			sourceTree = "<group>";
@@ -227,6 +234,8 @@
 		EA2051541D003F2100A81DD6 /* NSKit */ = {
 			isa = PBXGroup;
 			children = (
+				EAE0E1F51D3177A100E51BA6 /* NSTimer+PDCAdd.h */,
+				EAE0E1F61D3177A100E51BA6 /* NSTimer+PDCAdd.m */,
 				EAD31D501D13AC3F001B6FEF /* NSArray+PDCAdd.h */,
 				EAD31D511D13AC3F001B6FEF /* NSArray+PDCAdd.m */,
 				EA08479A1D1A71D100303A92 /* NSAttributedString+PDCAdd.h */,
@@ -301,6 +310,15 @@
 				EAB7F78C1D2FAA5D008FF891 /* NSTimerDemoController.m */,
 			);
 			name = NSTimerDemo;
+			sourceTree = "<group>";
+		};
+		EAE0E1F11D31777400E51BA6 /* WaitGroupDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EAE0E1F81D3177D700E51BA6 /* WaitGroupDemoController.h */,
+				EAE0E1F91D3177D700E51BA6 /* WaitGroupDemoController.m */,
+			);
+			name = WaitGroupDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -437,17 +455,19 @@
 				EAB7F70D1D2F75FC008FF891 /* StringDemoController.m in Sources */,
 				EA20515F1D003FF400A81DD6 /* KeyControllerModel.m in Sources */,
 				EAB7F7111D2F76A9008FF891 /* NSAttributedStringController.m in Sources */,
+				EAE0E1F71D3177A100E51BA6 /* NSTimer+PDCAdd.m in Sources */,
 				EA20515C1D003F7900A81DD6 /* DemoListTableViewController.m in Sources */,
 				EAD31D4F1D13A943001B6FEF /* UIControl+PDCAdd.m in Sources */,
+				EAE0E1FA1D3177D700E51BA6 /* WaitGroupDemoController.m in Sources */,
 				EAD31D521D13AC3F001B6FEF /* NSArray+PDCAdd.m in Sources */,
 				EA08479B1D1A71D100303A92 /* NSAttributedString+PDCAdd.m in Sources */,
-				EAD31D5B1D13AEA6001B6FEF /* NSTimer+PDCAdd.m in Sources */,
 				EA2051231D003E9200A81DD6 /* AppDelegate.m in Sources */,
 				EA2051631D0042F500A81DD6 /* ButtonDemoController.m in Sources */,
 				EA2051201D003E9200A81DD6 /* main.m in Sources */,
 				EAE1C65F1D1D41E9004765E6 /* UIButton+PDCAdd.m in Sources */,
 				EAA1E7A91D2E2A5700D7EB62 /* UIViewController+NavBarLeftRightItem.m in Sources */,
 				EAD31D551D13ADA8001B6FEF /* PDCQueueFunction.m in Sources */,
+				EAE0E1F41D31778D00E51BA6 /* PDCWaitGroup.m in Sources */,
 				EAB7F7091D2F7579008FF891 /* NSString+PDCAdd.m in Sources */,
 				EAD31D581D13ADC1001B6FEF /* PDCSerialQueue.m in Sources */,
 				EAB7F78D1D2FAA5D008FF891 /* NSTimerDemoController.m in Sources */,
