@@ -18,6 +18,7 @@
 		EA20515C1D003F7900A81DD6 /* DemoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA20515B1D003F7900A81DD6 /* DemoListTableViewController.m */; };
 		EA20515F1D003FF400A81DD6 /* KeyControllerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA20515E1D003FF400A81DD6 /* KeyControllerModel.m */; };
 		EA2051631D0042F500A81DD6 /* ButtonDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2051621D0042F500A81DD6 /* ButtonDemoController.m */; };
+		EA4480A11D33B25A00E0A03B /* UIView+GradientColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4480A01D33B25A00E0A03B /* UIView+GradientColor.m */; };
 		EAA1E7A41D2E28FC00D7EB62 /* UIViewController+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA1E7A31D2E28FC00D7EB62 /* UIViewController+Alert.m */; };
 		EAA1E7A91D2E2A5700D7EB62 /* UIViewController+NavBarLeftRightItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA1E7A81D2E2A5700D7EB62 /* UIViewController+NavBarLeftRightItem.m */; };
 		EAB7F7091D2F7579008FF891 /* NSString+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB7F7081D2F7579008FF891 /* NSString+PDCAdd.m */; };
@@ -74,6 +75,8 @@
 		EA20515E1D003FF400A81DD6 /* KeyControllerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyControllerModel.m; sourceTree = "<group>"; };
 		EA2051611D0042F500A81DD6 /* ButtonDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonDemoController.h; sourceTree = "<group>"; };
 		EA2051621D0042F500A81DD6 /* ButtonDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonDemoController.m; sourceTree = "<group>"; };
+		EA44809F1D33B25A00E0A03B /* UIView+GradientColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GradientColor.h"; sourceTree = "<group>"; };
+		EA4480A01D33B25A00E0A03B /* UIView+GradientColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GradientColor.m"; sourceTree = "<group>"; };
 		EAA1E7A21D2E28FC00D7EB62 /* UIViewController+Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Alert.h"; path = "PDCKit/PDCAdd/UIKit/UIViewController+Alert.h"; sourceTree = SOURCE_ROOT; };
 		EAA1E7A31D2E28FC00D7EB62 /* UIViewController+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Alert.m"; path = "PDCKit/PDCAdd/UIKit/UIViewController+Alert.m"; sourceTree = SOURCE_ROOT; };
 		EAA1E7A71D2E2A5700D7EB62 /* UIViewController+NavBarLeftRightItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavBarLeftRightItem.h"; sourceTree = "<group>"; };
@@ -261,6 +264,8 @@
 				EAD31D4E1D13A943001B6FEF /* UIControl+PDCAdd.m */,
 				EAE1C65D1D1D41E9004765E6 /* UIButton+PDCAdd.h */,
 				EAE1C65E1D1D41E9004765E6 /* UIButton+PDCAdd.m */,
+				EA44809F1D33B25A00E0A03B /* UIView+GradientColor.h */,
+				EA4480A01D33B25A00E0A03B /* UIView+GradientColor.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -454,6 +459,7 @@
 				EAA1E7A41D2E28FC00D7EB62 /* UIViewController+Alert.m in Sources */,
 				EAB7F70D1D2F75FC008FF891 /* StringDemoController.m in Sources */,
 				EA20515F1D003FF400A81DD6 /* KeyControllerModel.m in Sources */,
+				EA4480A11D33B25A00E0A03B /* UIView+GradientColor.m in Sources */,
 				EAB7F7111D2F76A9008FF891 /* NSAttributedStringController.m in Sources */,
 				EAE0E1F71D3177A100E51BA6 /* NSTimer+PDCAdd.m in Sources */,
 				EA20515C1D003F7900A81DD6 /* DemoListTableViewController.m in Sources */,
