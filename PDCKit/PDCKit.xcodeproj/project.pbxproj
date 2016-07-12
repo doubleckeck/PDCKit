@@ -7,35 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CC339CA23EBF35054EF980A /* libPods-PDCKitUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F7A4035F61405B0AFEC69E /* libPods-PDCKitUITests.a */; };
-		A99833287ABCECFC48C95695 /* libPods-PDCKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0523444E559A031D380DF646 /* libPods-PDCKit.a */; };
-		EA08479B1D1A71D100303A92 /* NSAttributedString+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0847991D1A71D100303A92 /* NSAttributedString+PDCAdd.m */; };
-		EA2051201D003E9200A81DD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA20511F1D003E9200A81DD6 /* main.m */; };
-		EA2051231D003E9200A81DD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2051221D003E9200A81DD6 /* AppDelegate.m */; };
-		EA2051291D003E9200A81DD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2051271D003E9200A81DD6 /* Main.storyboard */; };
-		EA20512B1D003E9200A81DD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA20512A1D003E9200A81DD6 /* Assets.xcassets */; };
-		EA20512E1D003E9200A81DD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA20512C1D003E9200A81DD6 /* LaunchScreen.storyboard */; };
 		EA2051391D003E9200A81DD6 /* PDCKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2051381D003E9200A81DD6 /* PDCKitTests.m */; };
 		EA2051441D003E9200A81DD6 /* PDCKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2051431D003E9200A81DD6 /* PDCKitUITests.m */; };
-		EA20515C1D003F7900A81DD6 /* DemoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA20515B1D003F7900A81DD6 /* DemoListTableViewController.m */; };
-		EA20515F1D003FF400A81DD6 /* KeyControllerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA20515E1D003FF400A81DD6 /* KeyControllerModel.m */; };
-		EA2051631D0042F500A81DD6 /* ButtonDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2051621D0042F500A81DD6 /* ButtonDemoController.m */; };
-		EA4480A11D33B25A00E0A03B /* UIView+GradientColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4480A01D33B25A00E0A03B /* UIView+GradientColor.m */; };
-		EAA1E7A41D2E28FC00D7EB62 /* UIViewController+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA1E7A31D2E28FC00D7EB62 /* UIViewController+Alert.m */; };
-		EAA1E7A91D2E2A5700D7EB62 /* UIViewController+NavBarLeftRightItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA1E7A81D2E2A5700D7EB62 /* UIViewController+NavBarLeftRightItem.m */; };
-		EAB7F7091D2F7579008FF891 /* NSString+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB7F7081D2F7579008FF891 /* NSString+PDCAdd.m */; };
-		EAB7F70D1D2F75FC008FF891 /* StringDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB7F70C1D2F75FC008FF891 /* StringDemoController.m */; };
-		EAB7F7111D2F76A9008FF891 /* NSAttributedStringController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB7F7101D2F76A9008FF891 /* NSAttributedStringController.m */; };
-		EAB7F78D1D2FAA5D008FF891 /* NSTimerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB7F78C1D2FAA5D008FF891 /* NSTimerDemoController.m */; };
-		EAD31D4F1D13A943001B6FEF /* UIControl+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD31D4E1D13A943001B6FEF /* UIControl+PDCAdd.m */; };
-		EAD31D521D13AC3F001B6FEF /* NSArray+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD31D511D13AC3F001B6FEF /* NSArray+PDCAdd.m */; };
-		EAD31D551D13ADA8001B6FEF /* PDCQueueFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD31D541D13ADA8001B6FEF /* PDCQueueFunction.m */; };
-		EAD31D581D13ADC1001B6FEF /* PDCSerialQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD31D571D13ADC1001B6FEF /* PDCSerialQueue.m */; };
-		EAE0E1F41D31778D00E51BA6 /* PDCWaitGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE0E1F31D31778D00E51BA6 /* PDCWaitGroup.m */; };
-		EAE0E1F71D3177A100E51BA6 /* NSTimer+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE0E1F61D3177A100E51BA6 /* NSTimer+PDCAdd.m */; };
-		EAE0E1FA1D3177D700E51BA6 /* WaitGroupDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE0E1F91D3177D700E51BA6 /* WaitGroupDemoController.m */; };
-		EAE1C65F1D1D41E9004765E6 /* UIButton+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE1C65E1D1D41E9004765E6 /* UIButton+PDCAdd.m */; };
-		F7A137ED846F8CF6D0BEF1A5 /* libPods-PDCKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C9E702EE36CC24E85BA611B /* libPods-PDCKitTests.a */; };
+		EABD34E41D349B8800C96D4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD34AF1D349B8800C96D4F /* AppDelegate.m */; };
+		EABD34E51D349B8800C96D4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EABD34B01D349B8800C96D4F /* Assets.xcassets */; };
+		EABD34E61D349B8800C96D4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EABD34B11D349B8800C96D4F /* LaunchScreen.storyboard */; };
+		EABD34E71D349B8800C96D4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EABD34B31D349B8800C96D4F /* Main.storyboard */; };
+		EABD34E81D349B8800C96D4F /* ButtonDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD34B71D349B8800C96D4F /* ButtonDemoController.m */; };
+		EABD34E91D349B8800C96D4F /* NSAttributedStringController.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD34B91D349B8800C96D4F /* NSAttributedStringController.m */; };
+		EABD34EA1D349B8800C96D4F /* NSTimerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD34BB1D349B8800C96D4F /* NSTimerDemoController.m */; };
+		EABD34EB1D349B8800C96D4F /* StringDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD34BD1D349B8800C96D4F /* StringDemoController.m */; };
+		EABD34EC1D349B8800C96D4F /* WaitGroupDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD34BF1D349B8800C96D4F /* WaitGroupDemoController.m */; };
+		EABD34ED1D349B8800C96D4F /* DemoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD34C11D349B8800C96D4F /* DemoListTableViewController.m */; };
+		EABD34EE1D349B8800C96D4F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EABD34C21D349B8800C96D4F /* Info.plist */; };
+		EABD34EF1D349B8800C96D4F /* KeyControllerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD34C41D349B8800C96D4F /* KeyControllerModel.m */; };
+		EABD34F01D349B8800C96D4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD34C51D349B8800C96D4F /* main.m */; };
+		EABD34F11D349B8800C96D4F /* PDCQueueFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD34C91D349B8800C96D4F /* PDCQueueFunction.m */; };
+		EABD34F21D349B8800C96D4F /* PDCSerialQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD34CB1D349B8800C96D4F /* PDCSerialQueue.m */; };
+		EABD34F31D349B8800C96D4F /* PDCWaitGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD34CD1D349B8800C96D4F /* PDCWaitGroup.m */; };
+		EABD34F41D349B8800C96D4F /* NSArray+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD34D01D349B8800C96D4F /* NSArray+PDCAdd.m */; };
+		EABD34F51D349B8800C96D4F /* NSAttributedString+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD34D21D349B8800C96D4F /* NSAttributedString+PDCAdd.m */; };
+		EABD34F61D349B8800C96D4F /* NSString+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD34D41D349B8800C96D4F /* NSString+PDCAdd.m */; };
+		EABD34F71D349B8800C96D4F /* NSTimer+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD34D61D349B8800C96D4F /* NSTimer+PDCAdd.m */; };
+		EABD34F81D349B8800C96D4F /* UIButton+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD34DA1D349B8800C96D4F /* UIButton+PDCAdd.m */; };
+		EABD34F91D349B8800C96D4F /* UIControl+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD34DC1D349B8800C96D4F /* UIControl+PDCAdd.m */; };
+		EABD34FA1D349B8800C96D4F /* UIView+GradientColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD34DE1D349B8800C96D4F /* UIView+GradientColor.m */; };
+		EABD34FB1D349B8800C96D4F /* UIViewController+NavBarLeftRightItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD34E11D349B8800C96D4F /* UIViewController+NavBarLeftRightItem.m */; };
+		EABD34FC1D349B8800C96D4F /* UIViewController+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = EABD34E31D349B8800C96D4F /* UIViewController+Alert.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,67 +54,58 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0523444E559A031D380DF646 /* libPods-PDCKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PDCKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		58F7A4035F61405B0AFEC69E /* libPods-PDCKitUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PDCKitUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CB22DF0A56DE335EBC5AED4 /* Pods-PDCKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDCKitUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PDCKitUITests/Pods-PDCKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		682A198D07A387D2E5AC7457 /* Pods-PDCKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDCKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PDCKit/Pods-PDCKit.debug.xcconfig"; sourceTree = "<group>"; };
-		8A063A9253DE65BD8245ABAB /* Pods-PDCKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDCKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PDCKitTests/Pods-PDCKitTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9C9E702EE36CC24E85BA611B /* libPods-PDCKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PDCKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6C19081AA34D06A9BBD889A /* Pods-PDCKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDCKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PDCKitTests/Pods-PDCKitTests.release.xcconfig"; sourceTree = "<group>"; };
-		ADD4BDF9C593A03103B542A4 /* Pods-PDCKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDCKitUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PDCKitUITests/Pods-PDCKitUITests.release.xcconfig"; sourceTree = "<group>"; };
-		EA0847991D1A71D100303A92 /* NSAttributedString+PDCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+PDCAdd.m"; sourceTree = "<group>"; };
-		EA08479A1D1A71D100303A92 /* NSAttributedString+PDCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+PDCAdd.h"; sourceTree = "<group>"; };
 		EA20511B1D003E9200A81DD6 /* PDCKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDCKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA20511F1D003E9200A81DD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EA2051211D003E9200A81DD6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EA2051221D003E9200A81DD6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EA2051281D003E9200A81DD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EA20512A1D003E9200A81DD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EA20512D1D003E9200A81DD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EA20512F1D003E9200A81DD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA2051341D003E9200A81DD6 /* PDCKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDCKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2051381D003E9200A81DD6 /* PDCKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDCKitTests.m; sourceTree = "<group>"; };
 		EA20513A1D003E9200A81DD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA20513F1D003E9200A81DD6 /* PDCKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDCKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2051431D003E9200A81DD6 /* PDCKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDCKitUITests.m; sourceTree = "<group>"; };
 		EA2051451D003E9200A81DD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA20515A1D003F7900A81DD6 /* DemoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoListTableViewController.h; sourceTree = "<group>"; };
-		EA20515B1D003F7900A81DD6 /* DemoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoListTableViewController.m; sourceTree = "<group>"; };
-		EA20515D1D003FF400A81DD6 /* KeyControllerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyControllerModel.h; sourceTree = "<group>"; };
-		EA20515E1D003FF400A81DD6 /* KeyControllerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyControllerModel.m; sourceTree = "<group>"; };
-		EA2051611D0042F500A81DD6 /* ButtonDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonDemoController.h; sourceTree = "<group>"; };
-		EA2051621D0042F500A81DD6 /* ButtonDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonDemoController.m; sourceTree = "<group>"; };
-		EA44809F1D33B25A00E0A03B /* UIView+GradientColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GradientColor.h"; sourceTree = "<group>"; };
-		EA4480A01D33B25A00E0A03B /* UIView+GradientColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GradientColor.m"; sourceTree = "<group>"; };
-		EAA1E7A21D2E28FC00D7EB62 /* UIViewController+Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Alert.h"; path = "PDCKit/PDCAdd/UIKit/UIViewController+Alert.h"; sourceTree = SOURCE_ROOT; };
-		EAA1E7A31D2E28FC00D7EB62 /* UIViewController+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Alert.m"; path = "PDCKit/PDCAdd/UIKit/UIViewController+Alert.m"; sourceTree = SOURCE_ROOT; };
-		EAA1E7A71D2E2A5700D7EB62 /* UIViewController+NavBarLeftRightItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavBarLeftRightItem.h"; sourceTree = "<group>"; };
-		EAA1E7A81D2E2A5700D7EB62 /* UIViewController+NavBarLeftRightItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavBarLeftRightItem.m"; sourceTree = "<group>"; };
-		EAB7F7071D2F7579008FF891 /* NSString+PDCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PDCAdd.h"; sourceTree = "<group>"; };
-		EAB7F7081D2F7579008FF891 /* NSString+PDCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PDCAdd.m"; sourceTree = "<group>"; };
-		EAB7F70B1D2F75FC008FF891 /* StringDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringDemoController.h; sourceTree = "<group>"; };
-		EAB7F70C1D2F75FC008FF891 /* StringDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringDemoController.m; sourceTree = "<group>"; };
-		EAB7F70F1D2F76A9008FF891 /* NSAttributedStringController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSAttributedStringController.h; sourceTree = "<group>"; };
-		EAB7F7101D2F76A9008FF891 /* NSAttributedStringController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSAttributedStringController.m; sourceTree = "<group>"; };
-		EAB7F78B1D2FAA5D008FF891 /* NSTimerDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimerDemoController.h; sourceTree = "<group>"; };
-		EAB7F78C1D2FAA5D008FF891 /* NSTimerDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTimerDemoController.m; sourceTree = "<group>"; };
-		EAD31D4D1D13A943001B6FEF /* UIControl+PDCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+PDCAdd.h"; sourceTree = "<group>"; };
-		EAD31D4E1D13A943001B6FEF /* UIControl+PDCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+PDCAdd.m"; sourceTree = "<group>"; };
-		EAD31D501D13AC3F001B6FEF /* NSArray+PDCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PDCAdd.h"; sourceTree = "<group>"; };
-		EAD31D511D13AC3F001B6FEF /* NSArray+PDCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PDCAdd.m"; sourceTree = "<group>"; };
-		EAD31D531D13ADA8001B6FEF /* PDCQueueFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDCQueueFunction.h; sourceTree = "<group>"; };
-		EAD31D541D13ADA8001B6FEF /* PDCQueueFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDCQueueFunction.m; sourceTree = "<group>"; };
-		EAD31D561D13ADC1001B6FEF /* PDCSerialQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDCSerialQueue.h; sourceTree = "<group>"; };
-		EAD31D571D13ADC1001B6FEF /* PDCSerialQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDCSerialQueue.m; sourceTree = "<group>"; };
-		EAE0E1F21D31778D00E51BA6 /* PDCWaitGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDCWaitGroup.h; sourceTree = "<group>"; };
-		EAE0E1F31D31778D00E51BA6 /* PDCWaitGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDCWaitGroup.m; sourceTree = "<group>"; };
-		EAE0E1F51D3177A100E51BA6 /* NSTimer+PDCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+PDCAdd.h"; sourceTree = "<group>"; };
-		EAE0E1F61D3177A100E51BA6 /* NSTimer+PDCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+PDCAdd.m"; sourceTree = "<group>"; };
-		EAE0E1F81D3177D700E51BA6 /* WaitGroupDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitGroupDemoController.h; sourceTree = "<group>"; };
-		EAE0E1F91D3177D700E51BA6 /* WaitGroupDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaitGroupDemoController.m; sourceTree = "<group>"; };
-		EAE1C65D1D1D41E9004765E6 /* UIButton+PDCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PDCAdd.h"; sourceTree = "<group>"; };
-		EAE1C65E1D1D41E9004765E6 /* UIButton+PDCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PDCAdd.m"; sourceTree = "<group>"; };
-		F2815616E98D1D5DB3C22933 /* Pods-PDCKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDCKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-PDCKit/Pods-PDCKit.release.xcconfig"; sourceTree = "<group>"; };
+		EABD34AE1D349B8800C96D4F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EABD34AF1D349B8800C96D4F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EABD34B01D349B8800C96D4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EABD34B21D349B8800C96D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EABD34B41D349B8800C96D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EABD34B61D349B8800C96D4F /* ButtonDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonDemoController.h; sourceTree = "<group>"; };
+		EABD34B71D349B8800C96D4F /* ButtonDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonDemoController.m; sourceTree = "<group>"; };
+		EABD34B81D349B8800C96D4F /* NSAttributedStringController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSAttributedStringController.h; sourceTree = "<group>"; };
+		EABD34B91D349B8800C96D4F /* NSAttributedStringController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSAttributedStringController.m; sourceTree = "<group>"; };
+		EABD34BA1D349B8800C96D4F /* NSTimerDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimerDemoController.h; sourceTree = "<group>"; };
+		EABD34BB1D349B8800C96D4F /* NSTimerDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTimerDemoController.m; sourceTree = "<group>"; };
+		EABD34BC1D349B8800C96D4F /* StringDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringDemoController.h; sourceTree = "<group>"; };
+		EABD34BD1D349B8800C96D4F /* StringDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringDemoController.m; sourceTree = "<group>"; };
+		EABD34BE1D349B8800C96D4F /* WaitGroupDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitGroupDemoController.h; sourceTree = "<group>"; };
+		EABD34BF1D349B8800C96D4F /* WaitGroupDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaitGroupDemoController.m; sourceTree = "<group>"; };
+		EABD34C01D349B8800C96D4F /* DemoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoListTableViewController.h; sourceTree = "<group>"; };
+		EABD34C11D349B8800C96D4F /* DemoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoListTableViewController.m; sourceTree = "<group>"; };
+		EABD34C21D349B8800C96D4F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EABD34C31D349B8800C96D4F /* KeyControllerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyControllerModel.h; sourceTree = "<group>"; };
+		EABD34C41D349B8800C96D4F /* KeyControllerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyControllerModel.m; sourceTree = "<group>"; };
+		EABD34C51D349B8800C96D4F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EABD34C81D349B8800C96D4F /* PDCQueueFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDCQueueFunction.h; sourceTree = "<group>"; };
+		EABD34C91D349B8800C96D4F /* PDCQueueFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDCQueueFunction.m; sourceTree = "<group>"; };
+		EABD34CA1D349B8800C96D4F /* PDCSerialQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDCSerialQueue.h; sourceTree = "<group>"; };
+		EABD34CB1D349B8800C96D4F /* PDCSerialQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDCSerialQueue.m; sourceTree = "<group>"; };
+		EABD34CC1D349B8800C96D4F /* PDCWaitGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDCWaitGroup.h; sourceTree = "<group>"; };
+		EABD34CD1D349B8800C96D4F /* PDCWaitGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDCWaitGroup.m; sourceTree = "<group>"; };
+		EABD34CF1D349B8800C96D4F /* NSArray+PDCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PDCAdd.h"; sourceTree = "<group>"; };
+		EABD34D01D349B8800C96D4F /* NSArray+PDCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PDCAdd.m"; sourceTree = "<group>"; };
+		EABD34D11D349B8800C96D4F /* NSAttributedString+PDCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+PDCAdd.h"; sourceTree = "<group>"; };
+		EABD34D21D349B8800C96D4F /* NSAttributedString+PDCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+PDCAdd.m"; sourceTree = "<group>"; };
+		EABD34D31D349B8800C96D4F /* NSString+PDCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PDCAdd.h"; sourceTree = "<group>"; };
+		EABD34D41D349B8800C96D4F /* NSString+PDCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PDCAdd.m"; sourceTree = "<group>"; };
+		EABD34D51D349B8800C96D4F /* NSTimer+PDCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+PDCAdd.h"; sourceTree = "<group>"; };
+		EABD34D61D349B8800C96D4F /* NSTimer+PDCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+PDCAdd.m"; sourceTree = "<group>"; };
+		EABD34D91D349B8800C96D4F /* UIButton+PDCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PDCAdd.h"; sourceTree = "<group>"; };
+		EABD34DA1D349B8800C96D4F /* UIButton+PDCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PDCAdd.m"; sourceTree = "<group>"; };
+		EABD34DB1D349B8800C96D4F /* UIControl+PDCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+PDCAdd.h"; sourceTree = "<group>"; };
+		EABD34DC1D349B8800C96D4F /* UIControl+PDCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+PDCAdd.m"; sourceTree = "<group>"; };
+		EABD34DD1D349B8800C96D4F /* UIView+GradientColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GradientColor.h"; sourceTree = "<group>"; };
+		EABD34DE1D349B8800C96D4F /* UIView+GradientColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GradientColor.m"; sourceTree = "<group>"; };
+		EABD34E01D349B8800C96D4F /* UIViewController+NavBarLeftRightItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavBarLeftRightItem.h"; sourceTree = "<group>"; };
+		EABD34E11D349B8800C96D4F /* UIViewController+NavBarLeftRightItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavBarLeftRightItem.m"; sourceTree = "<group>"; };
+		EABD34E21D349B8800C96D4F /* UIViewController+Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Alert.h"; path = "PDCKit/PDCAdd/UIKit/UIViewController+Alert.h"; sourceTree = SOURCE_ROOT; };
+		EABD34E31D349B8800C96D4F /* UIViewController+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Alert.m"; path = "PDCKit/PDCAdd/UIKit/UIViewController+Alert.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +113,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A99833287ABCECFC48C95695 /* libPods-PDCKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +120,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7A137ED846F8CF6D0BEF1A5 /* libPods-PDCKitTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,45 +127,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CC339CA23EBF35054EF980A /* libPods-PDCKitUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4FD4F1F2E7F60F16A81895A1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0523444E559A031D380DF646 /* libPods-PDCKit.a */,
-				9C9E702EE36CC24E85BA611B /* libPods-PDCKitTests.a */,
-				58F7A4035F61405B0AFEC69E /* libPods-PDCKitUITests.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E31F5F7288C6E0ACDA9B882B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				682A198D07A387D2E5AC7457 /* Pods-PDCKit.debug.xcconfig */,
-				F2815616E98D1D5DB3C22933 /* Pods-PDCKit.release.xcconfig */,
-				8A063A9253DE65BD8245ABAB /* Pods-PDCKitTests.debug.xcconfig */,
-				A6C19081AA34D06A9BBD889A /* Pods-PDCKitTests.release.xcconfig */,
-				5CB22DF0A56DE335EBC5AED4 /* Pods-PDCKitUITests.debug.xcconfig */,
-				ADD4BDF9C593A03103B542A4 /* Pods-PDCKitUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		EA2051121D003E9200A81DD6 = {
 			isa = PBXGroup;
 			children = (
-				EA20511D1D003E9200A81DD6 /* PDCKit */,
+				EABD34AD1D349B8800C96D4F /* PDCKit */,
 				EA2051371D003E9200A81DD6 /* PDCKitTests */,
 				EA2051421D003E9200A81DD6 /* PDCKitUITests */,
 				EA20511C1D003E9200A81DD6 /* Products */,
-				E31F5F7288C6E0ACDA9B882B /* Pods */,
-				4FD4F1F2E7F60F16A81895A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -190,34 +151,6 @@
 				EA20513F1D003E9200A81DD6 /* PDCKitUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		EA20511D1D003E9200A81DD6 /* PDCKit */ = {
-			isa = PBXGroup;
-			children = (
-				EA2051211D003E9200A81DD6 /* AppDelegate.h */,
-				EA2051221D003E9200A81DD6 /* AppDelegate.m */,
-				EA20515D1D003FF400A81DD6 /* KeyControllerModel.h */,
-				EA20515E1D003FF400A81DD6 /* KeyControllerModel.m */,
-				EA20515A1D003F7900A81DD6 /* DemoListTableViewController.h */,
-				EA20515B1D003F7900A81DD6 /* DemoListTableViewController.m */,
-				EA2051511D003ECE00A81DD6 /* Demo */,
-				EA2051521D003ECE00A81DD6 /* PDCAdd */,
-				EA20511E1D003E9200A81DD6 /* Supporting Files */,
-			);
-			path = PDCKit;
-			sourceTree = "<group>";
-		};
-		EA20511E1D003E9200A81DD6 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				EA2051271D003E9200A81DD6 /* Main.storyboard */,
-				EA20512A1D003E9200A81DD6 /* Assets.xcassets */,
-				EA20512C1D003E9200A81DD6 /* LaunchScreen.storyboard */,
-				EA20512F1D003E9200A81DD6 /* Info.plist */,
-				EA20511F1D003E9200A81DD6 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		EA2051371D003E9200A81DD6 /* PDCKitTests */ = {
@@ -238,132 +171,120 @@
 			path = PDCKitUITests;
 			sourceTree = "<group>";
 		};
-		EA2051511D003ECE00A81DD6 /* Demo */ = {
+		EAA530921D349D010090412F /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				EAE0E1F11D31777400E51BA6 /* WaitGroupDemo */,
-				EAB7F78E1D2FAA67008FF891 /* NSTimerDemo */,
-				EA2051601D0042C500A81DD6 /* UIButton */,
-				EAB7F70E1D2F769A008FF891 /* NSAttributedStringDemo */,
-				EAB7F70A1D2F75C8008FF891 /* StringDemo */,
+				EABD34C51D349B8800C96D4F /* main.m */,
+				EABD34C21D349B8800C96D4F /* Info.plist */,
+				EABD34AE1D349B8800C96D4F /* AppDelegate.h */,
+				EABD34AF1D349B8800C96D4F /* AppDelegate.m */,
+				EABD34B01D349B8800C96D4F /* Assets.xcassets */,
+				EABD34B11D349B8800C96D4F /* LaunchScreen.storyboard */,
+				EABD34B31D349B8800C96D4F /* Main.storyboard */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		EABD34AD1D349B8800C96D4F /* PDCKit */ = {
+			isa = PBXGroup;
+			children = (
+				EABD34C01D349B8800C96D4F /* DemoListTableViewController.h */,
+				EABD34C11D349B8800C96D4F /* DemoListTableViewController.m */,
+				EABD34C31D349B8800C96D4F /* KeyControllerModel.h */,
+				EABD34C41D349B8800C96D4F /* KeyControllerModel.m */,
+				EABD34B51D349B8800C96D4F /* Demo */,
+				EABD34C61D349B8800C96D4F /* PDCAdd */,
+				EAA530921D349D010090412F /* Other */,
+			);
+			path = PDCKit;
+			sourceTree = "<group>";
+		};
+		EABD34B51D349B8800C96D4F /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				EABD34B61D349B8800C96D4F /* ButtonDemoController.h */,
+				EABD34B71D349B8800C96D4F /* ButtonDemoController.m */,
+				EABD34B81D349B8800C96D4F /* NSAttributedStringController.h */,
+				EABD34B91D349B8800C96D4F /* NSAttributedStringController.m */,
+				EABD34BA1D349B8800C96D4F /* NSTimerDemoController.h */,
+				EABD34BB1D349B8800C96D4F /* NSTimerDemoController.m */,
+				EABD34BC1D349B8800C96D4F /* StringDemoController.h */,
+				EABD34BD1D349B8800C96D4F /* StringDemoController.m */,
+				EABD34BE1D349B8800C96D4F /* WaitGroupDemoController.h */,
+				EABD34BF1D349B8800C96D4F /* WaitGroupDemoController.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
 		};
-		EA2051521D003ECE00A81DD6 /* PDCAdd */ = {
+		EABD34C61D349B8800C96D4F /* PDCAdd */ = {
 			isa = PBXGroup;
 			children = (
-				EA2051531D003F2100A81DD6 /* MyKit */,
-				EA2051541D003F2100A81DD6 /* NSKit */,
-				EA2051551D003F2100A81DD6 /* OtherKit */,
-				EA2051561D003F2100A81DD6 /* UIKit */,
+				EABD34C71D349B8800C96D4F /* MyKit */,
+				EABD34CE1D349B8800C96D4F /* NSKit */,
+				EABD34D71D349B8800C96D4F /* OtherKit */,
+				EABD34D81D349B8800C96D4F /* UIKit */,
 			);
 			path = PDCAdd;
 			sourceTree = "<group>";
 		};
-		EA2051531D003F2100A81DD6 /* MyKit */ = {
+		EABD34C71D349B8800C96D4F /* MyKit */ = {
 			isa = PBXGroup;
 			children = (
-				EAD31D561D13ADC1001B6FEF /* PDCSerialQueue.h */,
-				EAD31D571D13ADC1001B6FEF /* PDCSerialQueue.m */,
-				EAD31D531D13ADA8001B6FEF /* PDCQueueFunction.h */,
-				EAD31D541D13ADA8001B6FEF /* PDCQueueFunction.m */,
-				EAE0E1F21D31778D00E51BA6 /* PDCWaitGroup.h */,
-				EAE0E1F31D31778D00E51BA6 /* PDCWaitGroup.m */,
+				EABD34C81D349B8800C96D4F /* PDCQueueFunction.h */,
+				EABD34C91D349B8800C96D4F /* PDCQueueFunction.m */,
+				EABD34CA1D349B8800C96D4F /* PDCSerialQueue.h */,
+				EABD34CB1D349B8800C96D4F /* PDCSerialQueue.m */,
+				EABD34CC1D349B8800C96D4F /* PDCWaitGroup.h */,
+				EABD34CD1D349B8800C96D4F /* PDCWaitGroup.m */,
 			);
 			path = MyKit;
 			sourceTree = "<group>";
 		};
-		EA2051541D003F2100A81DD6 /* NSKit */ = {
+		EABD34CE1D349B8800C96D4F /* NSKit */ = {
 			isa = PBXGroup;
 			children = (
-				EAE0E1F51D3177A100E51BA6 /* NSTimer+PDCAdd.h */,
-				EAE0E1F61D3177A100E51BA6 /* NSTimer+PDCAdd.m */,
-				EAD31D501D13AC3F001B6FEF /* NSArray+PDCAdd.h */,
-				EAD31D511D13AC3F001B6FEF /* NSArray+PDCAdd.m */,
-				EA08479A1D1A71D100303A92 /* NSAttributedString+PDCAdd.h */,
-				EA0847991D1A71D100303A92 /* NSAttributedString+PDCAdd.m */,
-				EAB7F7071D2F7579008FF891 /* NSString+PDCAdd.h */,
-				EAB7F7081D2F7579008FF891 /* NSString+PDCAdd.m */,
+				EABD34CF1D349B8800C96D4F /* NSArray+PDCAdd.h */,
+				EABD34D01D349B8800C96D4F /* NSArray+PDCAdd.m */,
+				EABD34D11D349B8800C96D4F /* NSAttributedString+PDCAdd.h */,
+				EABD34D21D349B8800C96D4F /* NSAttributedString+PDCAdd.m */,
+				EABD34D31D349B8800C96D4F /* NSString+PDCAdd.h */,
+				EABD34D41D349B8800C96D4F /* NSString+PDCAdd.m */,
+				EABD34D51D349B8800C96D4F /* NSTimer+PDCAdd.h */,
+				EABD34D61D349B8800C96D4F /* NSTimer+PDCAdd.m */,
 			);
 			path = NSKit;
 			sourceTree = "<group>";
 		};
-		EA2051551D003F2100A81DD6 /* OtherKit */ = {
+		EABD34D71D349B8800C96D4F /* OtherKit */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = OtherKit;
 			sourceTree = "<group>";
 		};
-		EA2051561D003F2100A81DD6 /* UIKit */ = {
+		EABD34D81D349B8800C96D4F /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				EAA1E7A61D2E29D100D7EB62 /* UIViewController */,
-				EAD31D4D1D13A943001B6FEF /* UIControl+PDCAdd.h */,
-				EAD31D4E1D13A943001B6FEF /* UIControl+PDCAdd.m */,
-				EAE1C65D1D1D41E9004765E6 /* UIButton+PDCAdd.h */,
-				EAE1C65E1D1D41E9004765E6 /* UIButton+PDCAdd.m */,
-				EA44809F1D33B25A00E0A03B /* UIView+GradientColor.h */,
-				EA4480A01D33B25A00E0A03B /* UIView+GradientColor.m */,
+				EABD34D91D349B8800C96D4F /* UIButton+PDCAdd.h */,
+				EABD34DA1D349B8800C96D4F /* UIButton+PDCAdd.m */,
+				EABD34DB1D349B8800C96D4F /* UIControl+PDCAdd.h */,
+				EABD34DC1D349B8800C96D4F /* UIControl+PDCAdd.m */,
+				EABD34DD1D349B8800C96D4F /* UIView+GradientColor.h */,
+				EABD34DE1D349B8800C96D4F /* UIView+GradientColor.m */,
+				EABD34DF1D349B8800C96D4F /* UIViewController */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
 		};
-		EA2051601D0042C500A81DD6 /* UIButton */ = {
+		EABD34DF1D349B8800C96D4F /* UIViewController */ = {
 			isa = PBXGroup;
 			children = (
-				EA2051611D0042F500A81DD6 /* ButtonDemoController.h */,
-				EA2051621D0042F500A81DD6 /* ButtonDemoController.m */,
-			);
-			name = UIButton;
-			sourceTree = "<group>";
-		};
-		EAA1E7A61D2E29D100D7EB62 /* UIViewController */ = {
-			isa = PBXGroup;
-			children = (
-				EAA1E7A21D2E28FC00D7EB62 /* UIViewController+Alert.h */,
-				EAA1E7A31D2E28FC00D7EB62 /* UIViewController+Alert.m */,
-				EAA1E7A71D2E2A5700D7EB62 /* UIViewController+NavBarLeftRightItem.h */,
-				EAA1E7A81D2E2A5700D7EB62 /* UIViewController+NavBarLeftRightItem.m */,
+				EABD34E01D349B8800C96D4F /* UIViewController+NavBarLeftRightItem.h */,
+				EABD34E11D349B8800C96D4F /* UIViewController+NavBarLeftRightItem.m */,
+				EABD34E21D349B8800C96D4F /* UIViewController+Alert.h */,
+				EABD34E31D349B8800C96D4F /* UIViewController+Alert.m */,
 			);
 			path = UIViewController;
-			sourceTree = "<group>";
-		};
-		EAB7F70A1D2F75C8008FF891 /* StringDemo */ = {
-			isa = PBXGroup;
-			children = (
-				EAB7F70B1D2F75FC008FF891 /* StringDemoController.h */,
-				EAB7F70C1D2F75FC008FF891 /* StringDemoController.m */,
-			);
-			name = StringDemo;
-			sourceTree = "<group>";
-		};
-		EAB7F70E1D2F769A008FF891 /* NSAttributedStringDemo */ = {
-			isa = PBXGroup;
-			children = (
-				EAB7F70F1D2F76A9008FF891 /* NSAttributedStringController.h */,
-				EAB7F7101D2F76A9008FF891 /* NSAttributedStringController.m */,
-			);
-			name = NSAttributedStringDemo;
-			sourceTree = "<group>";
-		};
-		EAB7F78E1D2FAA67008FF891 /* NSTimerDemo */ = {
-			isa = PBXGroup;
-			children = (
-				EAB7F78B1D2FAA5D008FF891 /* NSTimerDemoController.h */,
-				EAB7F78C1D2FAA5D008FF891 /* NSTimerDemoController.m */,
-			);
-			name = NSTimerDemo;
-			sourceTree = "<group>";
-		};
-		EAE0E1F11D31777400E51BA6 /* WaitGroupDemo */ = {
-			isa = PBXGroup;
-			children = (
-				EAE0E1F81D3177D700E51BA6 /* WaitGroupDemoController.h */,
-				EAE0E1F91D3177D700E51BA6 /* WaitGroupDemoController.m */,
-			);
-			name = WaitGroupDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,12 +294,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA2051481D003E9200A81DD6 /* Build configuration list for PBXNativeTarget "PDCKit" */;
 			buildPhases = (
-				3CEAC6F542D2A4A07F2FD97A /* [CP] Check Pods Manifest.lock */,
 				EA2051171D003E9200A81DD6 /* Sources */,
 				EA2051181D003E9200A81DD6 /* Frameworks */,
 				EA2051191D003E9200A81DD6 /* Resources */,
-				EB755B4E02E4E27485C9950A /* [CP] Embed Pods Frameworks */,
-				2DAB4BEFAEC6D661FB0FBB1A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -477,9 +395,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA20512E1D003E9200A81DD6 /* LaunchScreen.storyboard in Resources */,
-				EA20512B1D003E9200A81DD6 /* Assets.xcassets in Resources */,
-				EA2051291D003E9200A81DD6 /* Main.storyboard in Resources */,
+				EABD34EE1D349B8800C96D4F /* Info.plist in Resources */,
+				EABD34E71D349B8800C96D4F /* Main.storyboard in Resources */,
+				EABD34E51D349B8800C96D4F /* Assets.xcassets in Resources */,
+				EABD34E61D349B8800C96D4F /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,36 +419,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2DAB4BEFAEC6D661FB0FBB1A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PDCKit/Pods-PDCKit-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3CEAC6F542D2A4A07F2FD97A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		539E8A6D72EDAC3AC7B76FED /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -590,21 +479,6 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		EB755B4E02E4E27485C9950A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PDCKit/Pods-PDCKit-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		F5368653FCA33FC38E08B73E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -627,27 +501,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAA1E7A41D2E28FC00D7EB62 /* UIViewController+Alert.m in Sources */,
-				EAB7F70D1D2F75FC008FF891 /* StringDemoController.m in Sources */,
-				EA20515F1D003FF400A81DD6 /* KeyControllerModel.m in Sources */,
-				EA4480A11D33B25A00E0A03B /* UIView+GradientColor.m in Sources */,
-				EAB7F7111D2F76A9008FF891 /* NSAttributedStringController.m in Sources */,
-				EAE0E1F71D3177A100E51BA6 /* NSTimer+PDCAdd.m in Sources */,
-				EA20515C1D003F7900A81DD6 /* DemoListTableViewController.m in Sources */,
-				EAD31D4F1D13A943001B6FEF /* UIControl+PDCAdd.m in Sources */,
-				EAE0E1FA1D3177D700E51BA6 /* WaitGroupDemoController.m in Sources */,
-				EAD31D521D13AC3F001B6FEF /* NSArray+PDCAdd.m in Sources */,
-				EA08479B1D1A71D100303A92 /* NSAttributedString+PDCAdd.m in Sources */,
-				EA2051231D003E9200A81DD6 /* AppDelegate.m in Sources */,
-				EA2051631D0042F500A81DD6 /* ButtonDemoController.m in Sources */,
-				EA2051201D003E9200A81DD6 /* main.m in Sources */,
-				EAE1C65F1D1D41E9004765E6 /* UIButton+PDCAdd.m in Sources */,
-				EAA1E7A91D2E2A5700D7EB62 /* UIViewController+NavBarLeftRightItem.m in Sources */,
-				EAD31D551D13ADA8001B6FEF /* PDCQueueFunction.m in Sources */,
-				EAE0E1F41D31778D00E51BA6 /* PDCWaitGroup.m in Sources */,
-				EAB7F7091D2F7579008FF891 /* NSString+PDCAdd.m in Sources */,
-				EAD31D581D13ADC1001B6FEF /* PDCSerialQueue.m in Sources */,
-				EAB7F78D1D2FAA5D008FF891 /* NSTimerDemoController.m in Sources */,
+				EABD34EB1D349B8800C96D4F /* StringDemoController.m in Sources */,
+				EABD34ED1D349B8800C96D4F /* DemoListTableViewController.m in Sources */,
+				EABD34E81D349B8800C96D4F /* ButtonDemoController.m in Sources */,
+				EABD34EA1D349B8800C96D4F /* NSTimerDemoController.m in Sources */,
+				EABD34F21D349B8800C96D4F /* PDCSerialQueue.m in Sources */,
+				EABD34F91D349B8800C96D4F /* UIControl+PDCAdd.m in Sources */,
+				EABD34FC1D349B8800C96D4F /* UIViewController+Alert.m in Sources */,
+				EABD34E91D349B8800C96D4F /* NSAttributedStringController.m in Sources */,
+				EABD34F31D349B8800C96D4F /* PDCWaitGroup.m in Sources */,
+				EABD34EF1D349B8800C96D4F /* KeyControllerModel.m in Sources */,
+				EABD34F81D349B8800C96D4F /* UIButton+PDCAdd.m in Sources */,
+				EABD34F71D349B8800C96D4F /* NSTimer+PDCAdd.m in Sources */,
+				EABD34F41D349B8800C96D4F /* NSArray+PDCAdd.m in Sources */,
+				EABD34FA1D349B8800C96D4F /* UIView+GradientColor.m in Sources */,
+				EABD34F51D349B8800C96D4F /* NSAttributedString+PDCAdd.m in Sources */,
+				EABD34E41D349B8800C96D4F /* AppDelegate.m in Sources */,
+				EABD34FB1D349B8800C96D4F /* UIViewController+NavBarLeftRightItem.m in Sources */,
+				EABD34F01D349B8800C96D4F /* main.m in Sources */,
+				EABD34EC1D349B8800C96D4F /* WaitGroupDemoController.m in Sources */,
+				EABD34F61D349B8800C96D4F /* NSString+PDCAdd.m in Sources */,
+				EABD34F11D349B8800C96D4F /* PDCQueueFunction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -683,20 +557,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EA2051271D003E9200A81DD6 /* Main.storyboard */ = {
+		EABD34B11D349B8800C96D4F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EA2051281D003E9200A81DD6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EA20512C1D003E9200A81DD6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EA20512D1D003E9200A81DD6 /* Base */,
+				EABD34B21D349B8800C96D4F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EABD34B31D349B8800C96D4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EABD34B41D349B8800C96D4F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -786,11 +660,10 @@
 		};
 		EA2051491D003E9200A81DD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 682A198D07A387D2E5AC7457 /* Pods-PDCKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = PDCKit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PDCKit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.kidhub.PDCKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -799,11 +672,10 @@
 		};
 		EA20514A1D003E9200A81DD6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2815616E98D1D5DB3C22933 /* Pods-PDCKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = PDCKit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PDCKit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.kidhub.PDCKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -812,7 +684,6 @@
 		};
 		EA20514C1D003E9200A81DD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A063A9253DE65BD8245ABAB /* Pods-PDCKitTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PDCKitTests/Info.plist;
@@ -825,7 +696,6 @@
 		};
 		EA20514D1D003E9200A81DD6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6C19081AA34D06A9BBD889A /* Pods-PDCKitTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PDCKitTests/Info.plist;
@@ -838,7 +708,6 @@
 		};
 		EA20514F1D003E9200A81DD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CB22DF0A56DE335EBC5AED4 /* Pods-PDCKitUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PDCKitUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -850,7 +719,6 @@
 		};
 		EA2051501D003E9200A81DD6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADD4BDF9C593A03103B542A4 /* Pods-PDCKitUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PDCKitUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
